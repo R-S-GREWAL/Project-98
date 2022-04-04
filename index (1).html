@@ -1,0 +1,44 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+</head>
+ 
+<body id="mainscreen" background="bg.jpg" >
+    <div class="container">
+    <center>
+        <h1 style="color: azure; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:50px;">Voice Selfie App</h1>
+      <img src="https://play-lh.googleusercontent.com/66p14VnSKITsG0tzJ7EnuAXTy5sHYrzmiBGske9wZLWQmfXrCDKv4YGZKODZnTFw1ODG" id="logo_img">
+        
+        <hr>
+        <h4 style="color:#1dbcd8;">Please press allow as soon as popup comes. After you give a voice command</h4>
+        
+        <div class="form-group">
+            <h3 style="color: azure;">Say "take my selfie"</h3>
+            <label style="color: azure;">Your voice output : </label>
+            <textarea id="textbox" class="form-control" readonly="true"></textarea>
+            
+        </div>
+       <button id="start-btn" class="btn btn-primary" onclick="start()">Start</button>
+        <p style="color: azure;">Press the Start button</p>
+
+        <label style="color: azure;">Your webcam : </label>
+<div id="camera"> 
+
+</div>
+        <br>
+     
+        <label style="color: azure;">Your selife Will Display Here: </label>
+<div id="result"></div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

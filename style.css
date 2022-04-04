@@ -1,0 +1,10 @@
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#mainscreen {
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 3300px 1000px;
+  }
